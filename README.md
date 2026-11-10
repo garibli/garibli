@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Fuad Garibli, AI and Data Scientist">
+  <a href="https://garibli.github.io"><img src="assets/header.svg" width="100%" alt="Fuad Garibli, AI and Data Scientist"></a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/fuad-g-936354272/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:gariblifpro@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-2dd4bf?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Based%20in-Glasgow%2C%20UK-a78bfa?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Glasgow">
+  <a href="https://garibli.github.io"><img src="https://img.shields.io/badge/Portfolio-garibli.github.io-f7a541?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0b1628" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/fuad-g-936354272/"><img src="https://img.shields.io/badge/LinkedIn-Connect-3ddcff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b1628" alt="LinkedIn"></a>
+  <a href="mailto:gariblifpro@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-e8772e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b1628" alt="Email"></a>
 </p>
 
-<h2 align="center">Featured Projects</h2>
+<p align="center"><img src="assets/title-projects.svg" width="100%" alt="Featured Projects"></p>
 
 <p align="center">
 <a href="https://github.com/garibli/FedClinical-FederatedLearning"><img src="assets/card-fedclinical.svg" width="49%" alt="FedClinical"></a>
@@ -21,23 +21,25 @@
 <a href="https://github.com/garibli/Uber-Rides-Data-Visualization-by-Altair"><img src="assets/card-uber.svg" width="49%" alt="Uber Rides Viz"></a>
 </p>
 
-<br>
-
 <p align="center">
-  <a href="https://github.com/garibli/FedClinical-FederatedLearning"><img src="assets/research.svg" width="100%" alt="FedClinical results: Macro F1 0.878 centralised, 0.861 federated, 0.720 at epsilon 8, 0.589 at epsilon 1"></a>
+  <a href="https://github.com/garibli/FedClinical-FederatedLearning"><img src="assets/research.svg" width="100%" alt="FedClinical results: Macro F1 0.878 centralised, 0.861 federated, 0.720 at epsilon 8, 0.684 at epsilon 3, 0.589 at epsilon 1"></a>
 </p>
 
-<h2 align="center">About Me</h2>
+<p align="center">
+  <a href="https://garibli.github.io"><img src="assets/button.svg" width="62%" alt="Explore my interactive portfolio"></a>
+</p>
+
+<p align="center"><img src="assets/title-about.svg" width="100%" alt="About Me"></p>
 
 I build complete AI systems, from data pipelines to trained models to live products.
 I am a PhD researcher at the **University of Glasgow**, working on federated learning, differential privacy and AI privacy.
 
-* 🔬 **Research:** privacy and governance in federated learning
+* 🍂 **Research:** privacy and governance in federated learning
 * 📱 **Building:** TopTap, a social sports app I shipped alone to the App Store and Google Play
 * 🏦 **Interested in:** applying AI to banking and finance
 * 🌍 **Speak:** Azerbaijani, Turkish, Russian, English and French
 
-<h2 align="center">My Journey</h2>
+<p align="center"><img src="assets/title-journey.svg" width="100%" alt="My Journey"></p>
 
 <p align="center">
   <img src="assets/journey.svg" width="100%" alt="Timeline from BSc at Sakarya University in 2020 to PhD at the University of Glasgow in 2026">
@@ -64,15 +66,15 @@ Built Kafka and Hadoop pipelines that cut reporting time from overnight to same 
 
 </details>
 
-<h2 align="center">Toolkit</h2>
+<p align="center"><img src="assets/title-toolkit.svg" width="100%" alt="Toolkit"></p>
 
 <p align="center">
   <img src="assets/toolkit.svg" width="100%" alt="Skills: PyTorch, Hugging Face, federated learning, differential privacy, Spark, Kafka, Django, React Native and more">
 </p>
 
-<h2 align="center">Let's Connect</h2>
+<p align="center"><img src="assets/title-connect.svg" width="100%" alt="Let's Connect"></p>
 
 <p align="center">
   I am always happy to talk about federated learning, privacy in AI and AI for finance.<br>
-  <a href="https://www.linkedin.com/in/fuad-g-936354272/">LinkedIn</a> · <a href="mailto:gariblifpro@gmail.com">Email</a>
+  <a href="https://garibli.github.io">Portfolio</a> · <a href="https://www.linkedin.com/in/fuad-g-936354272/">LinkedIn</a> · <a href="mailto:gariblifpro@gmail.com">Email</a>
 </p>

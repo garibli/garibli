@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96">
+<defs>
+  <linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#e8772e" stop-opacity="0"/><stop offset="1" stop-color="#e8772e"/></linearGradient>
+  <linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#3ddcff"/><stop offset="1" stop-color="#3ddcff" stop-opacity="0"/></linearGradient>
+</defs>
+<style>text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
+<text x="600" y="30" font-size="12" font-weight="700" fill="#ffc861" text-anchor="middle" letter-spacing="3">FROM ROOTS TO CIRCUITS</text>
+<text x="600" y="68" font-size="30" font-weight="800" fill="#f6efe4" text-anchor="middle">My Journey</text>
+<path d="M162,58 H432 L448,50 H492" fill="none" stroke="url(#gl)" stroke-width="2"/>
+<circle cx="492" cy="50" r="4" fill="#e8772e"/>
+<g transform="translate(292.5,44) rotate(-35) scale(0.8)"><path d="M0,-10 C3,-8 4,-6 3.5,-4 C6,-5 7,-2 5,0 C7.5,0 7,3 4,3.5 C5,6 2,7 0.6,6 L0.5,10 L-0.5,10 L-0.6,6 C-2,7 -5,6 -4,3.5 C-7,3 -7.5,0 -5,0 C-7,-2 -6,-5 -3.5,-4 C-4,-6 -3,-8 0,-10 Z" fill="#f7a541"/></g>
+<path d="M708,50 H752 L768,58 H1038" fill="none" stroke="url(#gr)" stroke-width="2"/>
+<circle cx="708" cy="50" r="4" fill="#3ddcff"/>
+<circle r="3" fill="#8ff0ff"><animateMotion dur="3s" repeatCount="indefinite" path="M708,50 H752 L768,58 H1038"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;.8;1" dur="3s" repeatCount="indefinite"/></circle>
+<rect x="898" y="52" width="10" height="10" rx="2" fill="none" stroke="#3ddcff" stroke-opacity=".7"/>
+</svg>
