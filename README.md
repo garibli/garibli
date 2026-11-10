@@ -1,45 +1,78 @@
-<h1 align="center">Hi, I'm Fuad 👋</h1>
-<p align="center"><b>Data Scientist and AI Engineer · PhD researcher at the University of Glasgow</b></p>
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Fuad Garibli, AI and Data Scientist">
+</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/fuad-g-936354272/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/garibli"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/fuad-g-936354272/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:gariblifpro@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-2dd4bf?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Based%20in-Glasgow%2C%20UK-a78bfa?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Glasgow">
 </p>
 
-## About me
+<h2 align="center">Featured Projects</h2>
 
-I work on privacy preserving machine learning. My PhD at the University of Glasgow focuses on federated learning and differential privacy.
-
-* 🎓 MSc Data Science, University of Glasgow
-* 🎓 BSc Computer Engineering, Sakarya University (Erasmus at UCLM, Spain)
-* 💼 AI Intern at FlyRank AI (2026)
-* 🌍 Building AI tools for the Azerbaijani language
-* 📍 Glasgow, United Kingdom
-
-## Tech stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,docker,linux,git,kafka,postgres,vscode" />
+<p align="center">
+<a href="https://github.com/garibli/FedClinical-FederatedLearning"><img src="assets/card-fedclinical.svg" width="49%" alt="FedClinical"></a>
+<a href="https://github.com/garibli/Momentum-LTSM-Forecast"><img src="assets/card-momentum.svg" width="49%" alt="Momentum LSTM"></a>
+<br>
+<a href="https://github.com/garibli/NLPModels"><img src="assets/card-nlp.svg" width="49%" alt="NLP Models"></a>
+<a href="https://github.com/garibli/Realtime-Housing-Analytics"><img src="assets/card-housing.svg" width="49%" alt="Realtime Housing"></a>
+<br>
+<a href="https://github.com/garibli/MLHeartCondition"><img src="assets/card-heart.svg" width="49%" alt="ML Heart Condition"></a>
+<a href="https://github.com/garibli/Uber-Rides-Data-Visualization-by-Altair"><img src="assets/card-uber.svg" width="49%" alt="Uber Rides Viz"></a>
 </p>
 
-## Featured projects
+<br>
 
-| Project | What it does | Tools |
-|---|---|---|
-| [FedClinical](https://github.com/garibli/FedClinical-FederatedLearning) | Federated learning with differential privacy for mental health text classification. My MSc thesis. | Python, PyTorch |
-| [Momentum LSTM Forecast](https://github.com/garibli/Momentum-LTSM-Forecast) | Forecasts 442 stocks at once with a custom LSTM, a 5 model ensemble and Optuna tuning. | Python, Optuna |
-| [NLP Models](https://github.com/garibli/NLPModels) | Three deep learning models: offensive text detection (RoBERTa), sentiment analysis (BERT) and disaster help. | Transformers |
-| [Realtime Housing Analytics](https://github.com/garibli/Realtime-Housing-Analytics) | Live housing price pipeline built on Kafka and Spark Streaming. | Kafka, Spark |
-| [ML Heart Condition](https://github.com/garibli/MLHeartCondition) | Compares ML models to find the best one for illness detection. | scikit-learn |
-| [Uber Rides Visualization](https://github.com/garibli/Uber-Rides-Data-Visualization-by-Altair) | Three visual systems for Uber ride data, tested with real users. | Altair |
-
-## GitHub stats
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=garibli&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=garibli&layout=compact&theme=tokyonight&hide_border=true" />
+<p align="center">
+  <a href="https://github.com/garibli/FedClinical-FederatedLearning"><img src="assets/research.svg" width="100%" alt="FedClinical results: Macro F1 0.878 centralised, 0.861 federated, 0.720 at epsilon 8, 0.589 at epsilon 1"></a>
 </p>
 
-## Let's connect
+<h2 align="center">About Me</h2>
 
-I'm always happy to talk about federated learning, privacy in AI, and AI for finance. Feel free to reach out on LinkedIn.
+I build complete AI systems, from data pipelines to trained models to live products.
+I am a PhD researcher at the **University of Glasgow**, working on federated learning, differential privacy and AI privacy.
+
+* 🔬 **Research:** privacy and governance in federated learning
+* 📱 **Building:** TopTap, a social sports app I shipped alone to the App Store and Google Play
+* 🏦 **Interested in:** applying AI to banking and finance
+* 🌍 **Speak:** Azerbaijani, Turkish, Russian, English and French
+
+<h2 align="center">My Journey</h2>
+
+<p align="center">
+  <img src="assets/journey.svg" width="100%" alt="Timeline from BSc at Sakarya University in 2020 to PhD at the University of Glasgow in 2026">
+</p>
+
+<details>
+<summary><b>Experience highlights</b> (click to open)</summary>
+<br>
+
+**Founder and Developer, TopTap** (2026 to now)
+Built the React Native app, the Django and PostgreSQL backend and the release pipeline on my own. One REST API serves iOS, Android, the website and an operator panel.
+
+**AI Intern, FlyRank AI** (2026)
+Built an end to end ML pipeline that ranks web pages for content refresh, using real Google Search Console data with strict leakage checks.
+
+**Research Assistant, Turkcell NLP Study Group** (2024 to 2025)
+Benchmarked multilingual NLP models for sentiment and offensive language detection on Turkish datasets.
+
+**Software and Web Developer Intern, Socar Tech** (2024)
+Delivered 3 internal web apps used by more than 100 people across 3 departments.
+
+**Data Analyst and Engineer Intern, Facility Management Group** (2023)
+Built Kafka and Hadoop pipelines that cut reporting time from overnight to same day. Reached 89% forecasting accuracy with Spark.
+
+</details>
+
+<h2 align="center">Toolkit</h2>
+
+<p align="center">
+  <img src="assets/toolkit.svg" width="100%" alt="Skills: PyTorch, Hugging Face, federated learning, differential privacy, Spark, Kafka, Django, React Native and more">
+</p>
+
+<h2 align="center">Let's Connect</h2>
+
+<p align="center">
+  I am always happy to talk about federated learning, privacy in AI and AI for finance.<br>
+  <a href="https://www.linkedin.com/in/fuad-g-936354272/">LinkedIn</a> · <a href="mailto:gariblifpro@gmail.com">Email</a>
+</p>

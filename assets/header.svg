@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset=".6" stop-color="#131c3b"/><stop offset="1" stop-color="#1d1440"/></linearGradient>
+  <linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#38bdf8" stop-opacity=".45"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".06"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="340" rx="20"/></clipPath>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .f { opacity: 0; animation: up .9s ease-out forwards; }
+  .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s } .d4 { animation-delay: .85s }
+  @keyframes up { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: translateY(0) } }
+  .pulse { animation: p 2.4s ease-in-out infinite; transform-origin: 960px 170px; }
+  @keyframes p { 0%,100% { transform: scale(1) } 50% { transform: scale(1.12) } }
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+  <circle cx="960" cy="170" r="190" fill="url(#glow)"/>
+</g>
+<g class="f d1">
+  <rect x="64" y="62" width="330" height="32" rx="16" fill="#2dd4bf" fill-opacity=".1" stroke="#2dd4bf" stroke-opacity=".5"/>
+  <circle cx="84" cy="78" r="4.5" fill="#2dd4bf"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="98" y="83" font-size="14" font-weight="600" fill="#99f6e4" letter-spacing=".5">PhD Researcher · University of Glasgow</text>
+</g>
+<text class="f d2" x="62" y="164" font-size="66" font-weight="800" fill="#f1f5f9" letter-spacing="-1">Fuad Garibli</text>
+<text class="f d3" x="64" y="210" font-size="30" font-weight="700" fill="url(#tx)">AI &amp; Data Scientist</text>
+<text class="f d4" x="64" y="254" font-size="18" fill="#a3b0c4">Federated Learning  ·  Differential Privacy  ·  NLP  ·  ML Systems</text>
+<text class="f d4" x="64" y="288" font-size="15" fill="#64748b">Glasgow, United Kingdom</text>
+<line x1="960" y1="170" x2="960.0" y2="58.0" stroke="#2dd4bf" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.6s" repeatCount="indefinite"/></line><line x1="960" y1="170" x2="1066.5" y2="135.4" stroke="#a78bfa" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.6s" repeatCount="indefinite"/></line><line x1="960" y1="170" x2="1025.8" y2="260.6" stroke="#38bdf8" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.6s" repeatCount="indefinite"/></line><line x1="960" y1="170" x2="894.2" y2="260.6" stroke="#f472b6" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.6s" repeatCount="indefinite"/></line><line x1="960" y1="170" x2="853.5" y2="135.4" stroke="#fbbf24" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.6s" repeatCount="indefinite"/></line>
+<circle r="3.5" fill="#2dd4bf"><animateMotion dur="2.40s" repeatCount="indefinite" path="M960.0,58.0 L960,170"/></circle><circle r="3.5" fill="#a78bfa"><animateMotion dur="2.75s" repeatCount="indefinite" path="M1066.5,135.4 L960,170"/></circle><circle r="3.5" fill="#38bdf8"><animateMotion dur="3.10s" repeatCount="indefinite" path="M1025.8,260.6 L960,170"/></circle><circle r="3.5" fill="#f472b6"><animateMotion dur="3.45s" repeatCount="indefinite" path="M894.2,260.6 L960,170"/></circle><circle r="3.5" fill="#fbbf24"><animateMotion dur="3.80s" repeatCount="indefinite" path="M853.5,135.4 L960,170"/></circle>
+<g class="pulse">
+  <circle cx="960" cy="170" r="30" fill="#131c3b" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="960" y="176" font-size="17" font-weight="700" fill="#7dd3fc" text-anchor="middle">Σ</text>
+</g>
+<circle cx="960.0" cy="58.0" r="17" fill="#131c3b" stroke="#2dd4bf" stroke-width="2"/><rect x="954.0" y="54.0" width="12" height="9" rx="2" fill="#2dd4bf"/><path d="M956.5,54.0 v-3 a3.5,3.5 0 0 1 7,0 v3" fill="none" stroke="#2dd4bf" stroke-width="1.8"/><circle cx="1066.5" cy="135.4" r="17" fill="#131c3b" stroke="#a78bfa" stroke-width="2"/><rect x="1060.5" y="131.4" width="12" height="9" rx="2" fill="#a78bfa"/><path d="M1063.0,131.4 v-3 a3.5,3.5 0 0 1 7,0 v3" fill="none" stroke="#a78bfa" stroke-width="1.8"/><circle cx="1025.8" cy="260.6" r="17" fill="#131c3b" stroke="#38bdf8" stroke-width="2"/><rect x="1019.8" y="256.6" width="12" height="9" rx="2" fill="#38bdf8"/><path d="M1022.3,256.6 v-3 a3.5,3.5 0 0 1 7,0 v3" fill="none" stroke="#38bdf8" stroke-width="1.8"/><circle cx="894.2" cy="260.6" r="17" fill="#131c3b" stroke="#f472b6" stroke-width="2"/><rect x="888.2" y="256.6" width="12" height="9" rx="2" fill="#f472b6"/><path d="M890.7,256.6 v-3 a3.5,3.5 0 0 1 7,0 v3" fill="none" stroke="#f472b6" stroke-width="1.8"/><circle cx="853.5" cy="135.4" r="17" fill="#131c3b" stroke="#fbbf24" stroke-width="2"/><rect x="847.5" y="131.4" width="12" height="9" rx="2" fill="#fbbf24"/><path d="M850.0,131.4 v-3 a3.5,3.5 0 0 1 7,0 v3" fill="none" stroke="#fbbf24" stroke-width="1.8"/>
+<text x="960" y="322" font-size="12" fill="#64748b" text-anchor="middle" letter-spacing="1.5">FEDERATED · PRIVATE · BY DESIGN</text>
+</svg>

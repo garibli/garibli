@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 -10 600 320">
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f472b6" stop-opacity=".9"/><stop offset=".5" stop-color="#f472b6" stop-opacity=".15"/><stop offset="1" stop-color="#f472b6" stop-opacity=".5"/></linearGradient>
+  <radialGradient id="g" cx="1" cy="0" r="1"><stop offset="0" stop-color="#f472b6" stop-opacity=".18"/><stop offset=".6" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+</defs>
+<style>text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
+<rect x="1.5" y="1.5" width="597" height="297" rx="18" fill="#0d1426"/>
+<rect x="1.5" y="1.5" width="597" height="297" rx="18" fill="url(#g)"/>
+<rect x="1.5" y="1.5" width="597" height="297" rx="18" fill="none" stroke="url(#b)" stroke-width="2"/>
+<rect x="32" y="30" width="4" height="16" rx="2" fill="#f472b6"/>
+<text x="44" y="43" font-size="12" font-weight="700" fill="#f472b6" letter-spacing="1.6">NLP · DEEP LEARNING</text>
+<text x="32" y="88" font-size="28" font-weight="800" fill="#f1f5f9" letter-spacing="-.3">NLP Models</text>
+<text x="32" y="132" font-size="15" fill="#a3b0c4">Three fine tuned models for offensive</text><text x="32" y="155" font-size="15" fill="#a3b0c4">language detection, sentiment analysis and</text><text x="32" y="178" font-size="15" fill="#a3b0c4">disaster help requests.</text>
+<rect x="424" y="74" width="140" height="118" rx="14" fill="#f472b6" fill-opacity=".08" stroke="#f472b6" stroke-opacity=".3"/>
+<text x="494" y="128" font-size="38" font-weight="800" fill="#f1f5f9" text-anchor="middle">3</text><text x="494" y="154" font-size="12" fill="#64748b" text-anchor="middle">transformer</text><text x="494" y="170" font-size="12" fill="#64748b" text-anchor="middle">models</text>
+<rect x="32.0" y="240" width="75.8" height="26" rx="13" fill="#f472b6" fill-opacity=".12" stroke="#f472b6" stroke-opacity=".45"/><text x="69.9" y="257.5" font-size="12.5" font-weight="600" fill="#a3b0c4" text-anchor="middle">RoBERTa</text><rect x="115.8" y="240" width="53.6" height="26" rx="13" fill="#f472b6" fill-opacity=".12" stroke="#f472b6" stroke-opacity=".45"/><text x="142.6" y="257.5" font-size="12.5" font-weight="600" fill="#a3b0c4" text-anchor="middle">BERT</text><rect x="177.4" y="240" width="112.8" height="26" rx="13" fill="#f472b6" fill-opacity=".12" stroke="#f472b6" stroke-opacity=".45"/><text x="233.8" y="257.5" font-size="12.5" font-weight="600" fill="#a3b0c4" text-anchor="middle">Transformers</text>
+<text x="566" y="257" font-size="13" font-weight="600" fill="#f472b6" text-anchor="end">View repo ↗</text>
+</svg>
